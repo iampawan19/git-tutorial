@@ -1,0 +1,135 @@
+2024-08-14 15:41:26,655 - ERROR - Programming error occurred: column "email" does not exist
+LINE 1: SELECT 1 FROM dev.customer WHERE email = 'amit.sharma@gmail....
+                                         ^
+
+2024-08-14 15:46:14,501 - ERROR - Programming error occurred: column "first_name" of relation "customer" does not exist
+LINE 2:     INSERT INTO dev.customer (first_name, last_name, date_of...
+                                      ^
+
+2024-08-14 16:09:44,251 - ERROR - Programming error occurred: column "first_name" of relation "customer" does not exist
+LINE 2:     INSERT INTO dev.customer (first_name, last_name, date_of...
+                                      ^
+
+2024-08-14 16:28:53,504 - ERROR - An unexpected error occurred: invalid input syntax for type json
+LINE 3: ...03-12-15', 'pawan.kumar@gmail.com', '8969458563', 'Newotown,...
+                                                             ^
+DETAIL:  Token "Newotown" is invalid.
+CONTEXT:  JSON data, line 1: Newotown...
+
+2024-08-14 16:30:50,865 - ERROR - Integrity error occurred: null value in column "is_email_id_verified" of relation "customer" violates not-null constraint
+DETAIL:  Failing row contains (cfb16b3d-3fe0-464f-b224-556af446a9ee, Pawan, Kumar, 2003-12-19, pawan.kumar@gmail.com, 8789654856, null, null, {"Address_Lat": "22.5100", "Address_City": "Kolkata", "Address_L..., 2024-08-14 11:00:51.090887+00, null, 2024-08-14 11:00:51.090887+00, null).
+
+2024-08-14 16:33:27,478 - ERROR - An unexpected error occurred: value too long for type character(1)
+
+2024-08-14 16:49:07,804 - ERROR - Programming error occurred: relation "customer_id_seq" does not exist
+LINE 1: SELECT nextval('customer_id_seq');
+                       ^
+
+2024-08-14 16:52:07,523 - ERROR - Programming error occurred: relation "customer_id_seq" does not exist
+LINE 1: SELECT nextval('customer_id_seq');
+                       ^
+
+2024-08-14 16:54:57,073 - ERROR - An unexpected error occurred: date/time field value out of range: "2003-19-12"
+LINE 3:     VALUES ('Pawan', 'Kumar', '2003-19-12', 'pawan@gmail.com...
+                                      ^
+HINT:  Perhaps you need a different "datestyle" setting.
+
+2024-08-14 16:56:42,947 - ERROR - An unexpected error occurred: invalid input syntax for type json
+LINE 3: ...', '2003-12-19', 'pawan@gmail.com', '8785696324', 'newtown k...
+                                                             ^
+DETAIL:  Token "newtown" is invalid.
+CONTEXT:  JSON data, line 1: newtown...
+
+2024-08-14 17:02:53,399 - ERROR - An unexpected error occurred: value too long for type character(1)
+
+2024-08-14 17:03:57,632 - ERROR - An unexpected error occurred: value too long for type character(1)
+
+2024-08-14 17:11:11,885 - ERROR - An unexpected error occurred: value too long for type character(1)
+
+2024-08-14 17:14:36,918 - ERROR - An unexpected error occurred: value too long for type character(1)
+
+2024-08-14 17:18:24,136 - ERROR - An unexpected error occurred: value too long for type character(1)
+
+2024-08-14 17:41:04,159 - ERROR - An unexpected error occurred: value too long for type character(1)
+
+2024-08-16 16:53:41,960 - ERROR - An unexpected error occurred: relation "pincode" does not exist
+LINE 1: SELECT 1 FROM pincode WHERE pincode = '110000' LIMIT 1;
+                      ^
+
+2024-08-16 16:55:32,067 - ERROR - An unexpected error occurred: relation "pincode" does not exist
+LINE 1: SELECT 1 FROM pincode WHERE pincode = '70001' LIMIT 1;
+                      ^
+
+2024-08-16 17:02:17,875 - ERROR - An unexpected error occurred: relation "pincode" does not exist
+LINE 1: SELECT 1 FROM pincode WHERE pincode = '110001' LIMIT 1;
+                      ^
+
+2024-08-20 09:39:15,386 - ERROR - An unexpected error occurred: relation "pincode" does not exist
+LINE 1: SELECT 1 FROM pincode WHERE pincode = '700156' LIMIT 1;
+                      ^
+
+2024-08-20 09:42:54,695 - ERROR - An unexpected error occurred: relation "pincode" does not exist
+LINE 1: SELECT 1 FROM pincode WHERE pincode = '110001' LIMIT 1;
+                      ^
+
+2024-08-20 15:09:28,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2024-08-20 15:09:28,297 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-20 15:09:28,325 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:09:28,813 - WARNING -  * Debugger is active!
+2024-08-20 15:09:28,820 - INFO -  * Debugger PIN: 106-309-910
+2024-08-20 15:10:16,795 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2024-08-20 15:10:16,795 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-20 15:10:16,817 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:10:17,290 - WARNING -  * Debugger is active!
+2024-08-20 15:10:17,296 - INFO -  * Debugger PIN: 106-309-910
+2024-08-20 15:12:08,319 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2024-08-20 15:12:08,319 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-20 15:12:08,342 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:12:08,800 - WARNING -  * Debugger is active!
+2024-08-20 15:12:08,808 - INFO -  * Debugger PIN: 106-309-910
+2024-08-20 15:23:41,531 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2024-08-20 15:23:41,531 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-20 15:23:41,551 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:23:41,961 - WARNING -  * Debugger is active!
+2024-08-20 15:23:41,968 - INFO -  * Debugger PIN: 106-309-910
+2024-08-20 15:25:38,141 - INFO -  * Detected change in 'c:\\Users\\LENOVO\\Downloads\\PYTHON\\Data Manipulation\\app.py', reloading
+2024-08-20 15:25:38,142 - INFO -  * Detected change in 'c:\\Users\\LENOVO\\Downloads\\PYTHON\\Data Manipulation\\app.py', reloading
+2024-08-20 15:25:38,143 - INFO -  * Detected change in 'c:\\Users\\LENOVO\\Downloads\\PYTHON\\Data Manipulation\\app.py', reloading
+2024-08-20 15:25:38,554 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:27:25,990 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2024-08-20 15:27:25,990 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-20 15:27:26,013 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:27:26,474 - WARNING -  * Debugger is active!
+2024-08-20 15:27:26,481 - INFO -  * Debugger PIN: 106-309-910
+2024-08-20 15:29:32,295 - INFO -  * Detected change in 'c:\\Users\\LENOVO\\Downloads\\PYTHON\\Data Manipulation\\app.py', reloading
+2024-08-20 15:29:32,312 - INFO -  * Detected change in 'c:\\Users\\LENOVO\\Downloads\\PYTHON\\Data Manipulation\\app.py', reloading
+2024-08-20 15:29:32,314 - INFO -  * Detected change in 'c:\\Users\\LENOVO\\Downloads\\PYTHON\\Data Manipulation\\app.py', reloading
+2024-08-20 15:29:33,077 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:47:12,161 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2024-08-20 15:47:12,162 - INFO - [33mPress CTRL+C to quit[0m
+2024-08-20 15:47:12,188 - INFO -  * Restarting with watchdog (windowsapi)
+2024-08-20 15:47:12,627 - WARNING -  * Debugger is active!
+2024-08-20 15:47:12,633 - INFO -  * Debugger PIN: 106-309-910
+2024-08-20 15:48:50,031 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2024-08-20 15:48:50,031 - INFO - [33mPress CTRL+C to quit[0m
