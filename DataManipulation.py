@@ -15,8 +15,8 @@ def execute_query(query, params=None):
         conn = psycopg2.connect(
             dbname="runpharmacy",
             user="pawan",
-            password="pawan",
-            host="139.59.77.208",
+            password="password",
+            host="host",
             port="5432"
         )
         cursor = conn.cursor()
